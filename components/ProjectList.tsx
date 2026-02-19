@@ -8,7 +8,16 @@ import { Project } from "@/lib/projects";
 export default function ProjectList({ projects }: { projects: Project[] }) {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const categories = ["Web", "Mobile", "Back-end", "Data Science", "Jogos"];
+
+  // 1. Adicionado "Artigo" à lista
+  const categories = [
+    "Web",
+    "Mobile",
+    "Back-end",
+    "Data Science",
+    "Jogos",
+    "Artigo",
+  ];
 
   const getCategoryColor = (category: string) => {
     switch (category) {
@@ -22,6 +31,8 @@ export default function ProjectList({ projects }: { projects: Project[] }) {
         return "bg-green-400";
       case "Jogos":
         return "bg-red-400";
+      case "Artigo":
+        return "bg-orange-400"; // 2. Cor exclusiva Laranja
       default:
         return "bg-gray-400";
     }
@@ -75,7 +86,6 @@ export default function ProjectList({ projects }: { projects: Project[] }) {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
-        {/* Sidebar Filtros */}
         <aside className="md:col-span-3 h-fit">
           <div className="border-2 border-black bg-[#FAEBD7] p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sticky top-8">
             <div className="flex justify-between items-center font-black border-b-2 border-black pb-3 mb-4 text-lg">
@@ -149,8 +159,6 @@ export default function ProjectList({ projects }: { projects: Project[] }) {
             </div>
           </div>
         </aside>
-
-        {/* Grid de Cards */}
         <div className="md:col-span-9 grid grid-cols-1 gap-6">
           <div className="flex justify-between items-end mb-4 border-b-2 border-black pb-2">
             <h2 className="font-black text-2xl">Meus Projetos</h2>

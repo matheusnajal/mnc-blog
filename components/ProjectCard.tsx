@@ -27,6 +27,8 @@ export default function ProjectCard({
         return "bg-green-400";
       case "Jogos":
         return "bg-red-400";
+      case "Artigo":
+        return "bg-orange-400";
       default:
         return "bg-gray-200";
     }
