@@ -14,5 +14,5 @@ A narrativa é um contraste constante. Perry utiliza um humor ácido e contagian
 
 A obra é uma montanha-russa emocional — alterna entre o riso e a melancolia profunda. O ponto alto, porém, é a **coragem**. Perry foi brutalmente honesto, expondo vulnerabilidades e erros sem filtros ou tentativas de autopreservação. Essa transparência revela quem ele realmente era fora das câmeras: um homem imperfeito, assustado e **corajoso**.
 
-Recomento a leitura a todos. É um relato necessário sobre humanidade e resiliência.
+Recomendo a leitura a todos. É um relato necessário sobre humanidade e resiliência.
 Descanse em paz, Perry. 🖤
