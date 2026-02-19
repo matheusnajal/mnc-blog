@@ -18,7 +18,7 @@ export default async function Post({ params }: Props) {
   const { slug } = await params;
   const postData = getPostData(slug);
 
-  const getCategoryColor = (cat: string) => {
+const getCategoryColor = (cat: string) => {
     switch (cat) {
       case "Computação":
         return "bg-blue-400";
@@ -28,6 +28,8 @@ export default async function Post({ params }: Props) {
         return "bg-green-400";
       case "Livro":
         return "bg-pink-400";
+      case "Artigo":
+        return "bg-orange-400";
       default:
         return "bg-gray-200";
     }

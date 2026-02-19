@@ -18,7 +18,7 @@ export default function PostList({ posts }: { posts: Post[] }) {
   const [searchQuery, setSearchQuery] = useState("");
 
   const normalizeText = (text: string) => {
-    return text
+    return (text ?? "")
       .toLowerCase()
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "");
@@ -122,7 +122,7 @@ export default function PostList({ posts }: { posts: Post[] }) {
 
               <hr className="border-black border-dashed opacity-30" />
 
-              {["Computação", "Física", "Pessoal", "Livro"].map((category) => (
+              {["Computação", "Física", "Pessoal", "Livro", "Artigo"].map((category) => (
                 <label
                   key={category}
                   className="flex items-center gap-3 cursor-pointer group select-none"
@@ -142,7 +142,9 @@ export default function PostList({ posts }: { posts: Post[] }) {
                             ? "bg-purple-400"
                             : category === "Pessoal"
                               ? "bg-green-400"
-                              : "bg-pink-400"
+                              : category === "Livro"
+                                ? "bg-pink-400"
+                                : "bg-orange-400"
                         : "bg-white group-hover:bg-gray-100"
                     }`}
                   >
