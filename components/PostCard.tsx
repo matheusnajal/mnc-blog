@@ -26,6 +26,8 @@ export default function PostCard({
         return "bg-purple-400";
       case "Pessoal":
         return "bg-green-400";
+      case "Livro":
+        return "bg-pink-400";
       default:
         return "bg-gray-200";
     }

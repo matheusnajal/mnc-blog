@@ -3,10 +3,10 @@ title: "Primeiro Post"
 date: "2026-02-18"
 category: "Pessoal"
 excerpt: "Seja bem-vindo ao primeiro post desse blog"
-readTime: "5 min"
+readTime: "1 min"
 ---
 
-# Um pouco sobre mim:
+## Um pouco sobre mim:
 
 Prazer, Matheus Najal Cruz! Sou natural de São Bernardo do Campo (SP), mas me considero um cearense, já que moro em Fortaleza desde os quatro anos.
 

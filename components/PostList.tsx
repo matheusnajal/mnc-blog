@@ -122,7 +122,7 @@ export default function PostList({ posts }: { posts: Post[] }) {
 
               <hr className="border-black border-dashed opacity-30" />
 
-              {["Computação", "Física", "Pessoal"].map((category) => (
+              {["Computação", "Física", "Pessoal", "Livro"].map((category) => (
                 <label
                   key={category}
                   className="flex items-center gap-3 cursor-pointer group select-none"
@@ -140,7 +140,9 @@ export default function PostList({ posts }: { posts: Post[] }) {
                           ? "bg-blue-400"
                           : category === "Física"
                             ? "bg-purple-400"
-                            : "bg-green-400"
+                            : category === "Pessoal"
+                              ? "bg-green-400"
+                              : "bg-pink-400"
                         : "bg-white group-hover:bg-gray-100"
                     }`}
                   >
