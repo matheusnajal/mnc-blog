@@ -161,7 +161,7 @@ export default function ProjectList({ projects }: { projects: Project[] }) {
         </aside>
         <div className="md:col-span-9 grid grid-cols-1 gap-6">
           <div className="flex justify-between items-end mb-4 border-b-2 border-black pb-2">
-            <h2 className="font-black text-2xl">Meus Projetos</h2>
+            <h2 className="font-black text-2xl">Meus Projetos & Artigos</h2>
             <span className="bg-[#FAEBD7] px-3 py-1 border-2 border-black text-sm font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
               {filteredProjects.length} projetos
             </span>
