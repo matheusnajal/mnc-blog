@@ -7,7 +7,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen p-4 md:p-8 max-w-7xl mx-auto bg-[#FDF6E3]">
-      {/* Header */}
       <header className="flex justify-between items-center mb-16 border-b-2 border-black pb-4">
         <div className="text-2xl font-black italic tracking-tighter">
           MNC.BLOG
