@@ -8,13 +8,32 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-    {
+  {
     id: "artigo-1",
-    title: "Modelagem e Simulação de Corpos e Tecidos Deformáveis em Motores de Jogos",
-    description: "Meu trabalho de conclusão de curso voltado a área de computação gráfica e física",
-    tags: ["Godot", "Unity", "Unreal Engine", "Física Computacional", "Matemática para Jogos", "GDScript", "C#", "Blueprint"],
+    title:
+      "Modelagem e Simulação de Corpos e Tecidos Deformáveis em Motores de Jogos",
+    description:
+      "Meu trabalho de conclusão de curso voltado a área de computação gráfica e física",
+    tags: [
+      "Godot",
+      "Unity",
+      "Unreal Engine",
+      "Física Computacional",
+      "Matemática para Jogos",
+      "GDScript",
+      "C#",
+      "Blueprint",
+    ],
     githubUrl: "https://github.com/matheusnajal/TCC",
     category: "Artigo",
+  },
+  {
+    id: "Data Science-1",
+    title: "Dashboard-Streamlit",
+    description: "Um estudo da biblioteca Streamlit do Python",
+    tags: ["Python", "Streamlit", "Pandas", "Plotly"],
+    githubUrl: "https://github.com/matheusnajal/Dashboard-Streamlit",
+    category: "Data Science",
   },
   {
     id: "game-1",
