@@ -2,7 +2,7 @@
 title: "Amigos, Amores e Aquela Coisa Terrível"
 date: "2026-02-19"
 category: "Livro"
-excerpt: "Resenha sobre o livro do ator que da vida ao espetacular Chandler Bing"
+excerpt: "Resenha sobre o livro do espetacular Chandler Bing"
 readTime: "5 min"
 ---
 
